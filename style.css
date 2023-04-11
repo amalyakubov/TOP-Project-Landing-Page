@@ -4,6 +4,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.introduction {
+    display: flex;
+    flex-direction: column;
+    background-color: #081822;
+    color: white;
+    gap: 7rem;
+}
+
 .header {
     display: flex;
 }
@@ -31,4 +39,51 @@ ol {
     gap: 5rem;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
+}
+
+.entry {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 100px;
+    gap: 2rem;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 300px;
+}
+
+.left-side > * {
+    display: flex;
+    flex: auto;
+}
+
+.button {
+    display: flex;
+}
+
+button {
+    border-style: none;
+    width: 150px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    border: 1px solid white;
+    background-color: #081822;
+    flex: 1 1 auto;
+}
+
+button:hover {
+    background-color: white;
+    color: #081822;
+}
+
+.image {
+    display: flex;
+    width: 300px;
+    height: 300px;
 }
