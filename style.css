@@ -31,9 +31,10 @@ body {
     flex: auto;
     background-color: #081822;
     color: white;
-    margin: 0;
+    margin: 0 125px 0 0;
     padding: 0;
     align-items: center;
+    justify-content: flex-end;
 }
 
 ol {
@@ -96,10 +97,12 @@ button:hover {
     display: flex;
     flex-direction: column;
     background-color: white;
-
+    height: 600px;
+    align-items: center;
 }
 
 .text {
+    font-size: 24px;
     display: flex;
     justify-content: center;
 }
@@ -112,6 +115,7 @@ button:hover {
     gap: 7rem;
     display: flex;
     flex-direction: row;
+    font-size: 18px;
 }
 
 .illustration-and-description {
@@ -128,4 +132,85 @@ button:hover {
     justify-content: center;
     width: 200px;
     height: 200px;
+}
+
+.third-part {
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third-part > p {
+    display: flex;
+    font-style: italic;
+    font-size: 28px;
+    justify-content: center;
+    width: 700px;
+}
+
+hr {
+    display: flex;
+    color: black;
+    height: 1px;
+    width: 1300px;
+    align-self: center;
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10rem 0;
+    padding: 0;
+    background-color: #081822;
+}
+
+.fourth-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 7rem;
+    display: flex;
+    gap: 5rem;
+}
+
+.vertical-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+#button-two {
+    background-color: white;
+    height: 40px;
+    width: 200px;
+    color: #081822;
+    border: 1px solid #081822;
+    flex: auto;
+    transition: background-color 0.2s ease-in 0s;
+    font-weight: 100;
+}
+
+#button-two:hover {
+    background-color: #081822;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footer > * {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+#hr-two {
+    margin-bottom: 50px;
 }
